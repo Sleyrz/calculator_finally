@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron&display=swap");
+body {
+  height: 100%;
+  background-repeat: no-repeat;
+  background: rgb(191, 105, 137);
+  background: linear-gradient(
+      180deg,
+      rgba(191, 105, 137, 1) 0%,
+      rgba(128, 133, 166, 1) 29%,
+      rgba(217, 200, 191, 1) 100%
+    )
+    fixed;
+}
+.viev {
+  max-width: 350px;
+}
+.nav {
+  color: whitesmoke;
+  font-family: "Orbitron";
+  text-align: center;
+  padding: 25px;
+}
+.container {
+  background-color: #434a73;
+  height: 500px;
+  width: 400px;
+  display: block;
+  padding-top: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 3px;
+}
+.ekran {
+  position: static;
+  background-color: #343959;
+  height: 80px;
+  width: 350px;
+  margin-left: 25px;
+  margin-right: 25px;
+  color: #bf6989;
+  font-family: "Orbitron";
+  padding: 5px;
+  font-size: 35px;
+  text-align: right;
+  border-radius: 2px;
+}
+.przyciski {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 25px;
+}
+button {
+  height: 60px;
+  width: 75px;
+  margin: 6px;
+  background-color: #434a73;
+  border: none;
+  color: #bf6989;
+  font-size: 25px;
+}
+button:hover {
+  background-color: #343959;
+  box-shadow: 10px 5px 20px#BF6989;
+  border-radius: 1px;
+}
+#ukryty {
+  visibility: hidden;
+}
